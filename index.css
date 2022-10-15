@@ -1,0 +1,96 @@
+body {
+    background: #1F2937;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.hero {
+    align-items: center;
+    background-color: #6943FF;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    margin: 0;
+    padding: 30px;
+}
+
+.number-input {
+    background-color: #6943FF;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    color: #fff;
+    font-size: 50px;
+    padding: 10px 20px;
+    width: 10%;
+    text-align: center;
+}
+
+#convert-btn, #reset-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 20px; 
+}
+
+.btns-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.convert {
+    background: #273549;
+    border-radius: 5px;
+    color: #CCC1FF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+}
+
+span {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.light-switch-container {
+    background-color: #fff;
+    border: 1px solid #6943FF;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 25px;
+}
+
+.checkbox-label {
+    color: #6943FF;
+}
+
+.lightMode {
+    background: #F4F4F4;
+}
+
+.darkMode {
+    background: #1F2937;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.lightModeColor {
+    color: #797394;
+}
+
+.lightModeBackground {
+    background: #FFFFFF;
+}
